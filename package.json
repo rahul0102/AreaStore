@@ -1,0 +1,33 @@
+{
+  "name": "rest-api-areastore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.8",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  },
+  "engines": {
+    "node": "6.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul0102/AreaStore.git"
+  },
+  "author": "Rahul Raval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahul0102/AreaStore/issues"
+  },
+  "homepage": "https://github.com/rahul0102/AreaStore#readme"
+}
